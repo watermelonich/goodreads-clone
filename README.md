@@ -1,4 +1,4 @@
-#GoodReads Clone
+# GoodReads Clone
 A clone web-app inspired by the beloved platform for book enthusiasts, designed to enhance your reading journey.
 
 ## Features
