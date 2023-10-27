@@ -1,0 +1,67 @@
+
+
+.flexbox-container {
+    display: flex;
+}
+
+.createAccount {
+    margin: 5%;
+
+    flex-direction: column;
+
+    justify-content:center;
+    align-items: center;
+}
+
+.createAccountForm {
+    width: 30%;
+
+    border-radius: 5px;
+
+    min-width: 200px;
+
+    flex: 1 0 0;
+}
+
+.createAccountForm > div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    width:75%;
+
+    margin: 0 auto;
+
+    flex: 1 0 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+.createAccountForm > div > input {
+    width: 100%;
+
+    flex: 1 0 0;
+}
+
+#createAccountButton {
+
+    font-size: medium;
+    width: 75%;
+
+    margin: 1%;
+
+    border-radius: 5px;
+
+    border: 1px solid transparent;
+
+    background-color: #00FFB2;
+}
+
+#createAccountButton:hover {
+    background-color: #99ffdf;
+
+    border: 1px solid black;
+}
