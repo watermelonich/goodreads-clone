@@ -1,5 +1,6 @@
 import './CreateAccount.css';
 import React from "react";
+import { Link } from 'react-router-dom';
 
 // Create an Account page
 const CreateAccount = () => {
@@ -29,7 +30,7 @@ const CreateAccount = () => {
             </form>
 
             <div>
-                <p>Already a member? <a href="./SignIn">Sign in</a></p>
+                <p>Already a member? <Link to="./SignIn">Sign in</Link></p>
             </div>
         </div>
     );
