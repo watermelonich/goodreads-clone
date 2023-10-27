@@ -27,7 +27,7 @@ const SignIn = () => {
             </form>
 
             <div>
-                <p>Not a member yet? <Link to="./CreateAccount">Create an account</Link></p>
+                <p>Not a member yet? <Link to="/CreateAccount">Create an account</Link></p>
             </div>
 
         </div>

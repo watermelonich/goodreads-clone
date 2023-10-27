@@ -30,7 +30,7 @@ const CreateAccount = () => {
             </form>
 
             <div>
-                <p>Already a member? <Link to="./SignIn">Sign in</Link></p>
+                <p>Already a member? <Link to="/SignIn">Sign in</Link></p>
             </div>
         </div>
     );
